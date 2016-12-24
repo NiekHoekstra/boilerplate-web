@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Recommended attribute -->
+  <head>
+    <meta charset="UTF-8">
+    <title>RequireJS demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- allow user to resize. -->
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <style>
+    .load {
+      display:none;
+    }
+
+    .app .load {
+      display:inline;
+    }
+    .app .unload {
+      display:none;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <div data-module="app">
+          Did the 'App' module load?
+          <span class="load">Yes</span><span class="unload">No</span>
+      </div>
+    </div>
+    <script data-main="js/main" src="js/lib/require.js"></script>
+  </body>
+</html>
