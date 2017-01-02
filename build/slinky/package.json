@@ -1,0 +1,16 @@
+{
+  "name": "slinky-local",
+  "version": "0.0.1",
+  "description": "Imitating slinky via inky & inline-css",
+  "author":"niekhoekstra@gmail.com",
+  "preferGlobal": false,
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "inky": "^1.3.7",
+    "gulp-inline-css":"^3.1.0",
+  }
+}
