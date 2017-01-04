@@ -23,7 +23,7 @@ var build = function(debug) {
       applyStyleTags: true,       // Inline as much as possible
       removeLinkTags: true,	  // Already inlined, don't need more external sources.
       preserveMediaQueries: true, // Some clients respect it.
-      removeStyleTags: true      // Don't remove raw styles.
+      removeStyleTags: true       // This, along with the above, removes all non-media query stylings.
 
     }))
     .pipe(htmlmin({
